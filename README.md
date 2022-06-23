@@ -1,1 +1,1 @@
-connet to u device and start u app
+connet to you device and start app
