@@ -1,3 +1,5 @@
+//script get at https://codeshare.frida.re/@oleavr/who-does-it-call/
+
 var listeners = [];
 var activated = false;
 
