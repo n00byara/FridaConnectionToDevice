@@ -2,13 +2,14 @@
   "name": "fridaconnectiontodevice",
   "version": "1.0.0",
   "description": "",
-  "main": "startApp.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "frida": "^15.1.27"
+    "frida": "^15.1.27",
+    "fs": "^0.0.1-security"
   }
 }

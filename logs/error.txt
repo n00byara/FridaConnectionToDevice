@@ -1,0 +1,10 @@
+onMessage() message: undefinedtype: error
+description: TypeError: cannot read property 'toString' of undefined
+stack: TypeError: cannot read property 'toString' of undefined
+    at start (/script1.js:20)
+    at <eval> (/script1.js:112)
+fileName: /script1.js
+lineNumber: 20
+columnNumber: 1
+
+data: null
