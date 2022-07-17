@@ -4,7 +4,7 @@ const { join } = require('path')
 
 const current = {
   device: null,
-  pid: null,
+  pid: true,
   script: null
 }
 
@@ -27,7 +27,7 @@ async function main() {
   session.detached.connect(onDetached)
 
 
-  const textScript = fs.readFileSync('./scripts/script.js', {encoding: 'utf-8'})
+  const textScript = fs.readFileSync('./scripts/new.js', {encoding: 'utf-8'})
   console.log(`[*] createScript()`)
   const script = await session.createScript(textScript)
   current.script = script
