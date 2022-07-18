@@ -18,6 +18,7 @@ async function main() {
 
   console.log('[*] spawn()')
   const pid = await device.spawn('com.sec.android.app.samsungapps')
+  console.log(')))))))))')
   current.pid = pid
 
  

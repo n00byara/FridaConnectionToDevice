@@ -1,17 +1,10 @@
 onMessage() message: undefinedtype: error
-description: ReferenceError: 'regXp' is not defined
-stack: ReferenceError: 'regXp' is not defined
-    at onMatch (/script1.js:21)
-    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:125)
-    at forEach (native)
-    at _enumerateLoadedClassesArt (frida/node_modules/frida-java-bridge/index.js:126)
-    at enumerateLoadedClasses (frida/node_modules/frida-java-bridge/index.js:67)
-    at <anonymous> (/script1.js:28)
-    at apply (native)
-    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:620)
-    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:598)
-fileName: /script1.js
-lineNumber: 21
+description: Error: Implementation for onCreate expected return value compatible with void
+stack: Error: Implementation for onCreate expected return value compatible with void
+    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:614)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:592)
+fileName: frida/node_modules/frida-java-bridge/lib/class-factory.js
+lineNumber: 614
 columnNumber: 1
 
 data: null
