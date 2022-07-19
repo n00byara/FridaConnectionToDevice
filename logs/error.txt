@@ -1,10 +1,19 @@
 onMessage() message: undefinedtype: error
-description: Error: Implementation for onCreate expected return value compatible with void
-stack: Error: Implementation for onCreate expected return value compatible with void
-    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:614)
+description: Error: setOnClickListener(): specified argument types do not match any of:
+	.overload('android.view.View$OnClickListener')
+stack: Error: setOnClickListener(): specified argument types do not match any of:
+	.overload('android.view.View$OnClickListener')
+    at X (frida/node_modules/frida-java-bridge/lib/class-factory.js:563)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:892)
+    at <anonymous> (/script1.js:13)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:16)
+    at _performPendingVmOps (frida/node_modules/frida-java-bridge/index.js:238)
+    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:230)
+    at apply (native)
+    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:613)
     at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:592)
 fileName: frida/node_modules/frida-java-bridge/lib/class-factory.js
-lineNumber: 614
+lineNumber: 563
 columnNumber: 1
 
 data: null

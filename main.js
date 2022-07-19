@@ -17,8 +17,7 @@ async function main() {
   device.output.connect(onOutput)
 
   console.log('[*] spawn()')
-  const pid = await device.spawn('com.sec.android.app.samsungapps')
-  console.log(')))))))))')
+  const pid = await device.spawn('com.n00byara.whacamole') //com.sec.android.app.samsungapps
   current.pid = pid
 
  
